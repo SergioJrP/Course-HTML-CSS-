@@ -4,11 +4,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Android</title>
-  <link rel="icon" href="./desafios/desafios_html/src/favicon.ico" type="image/x-icon" />
-  <link rel="stylesheet" href="./desafios_html/estilos.css"> 
+  <link rel="icon" href="./src/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="./estilos.css">
 </head>
 <body>
-  
+
   <header>
     <h1>CURIOSIDADES DE TECNOLOGIA</h1>
     <div class="intro">
@@ -46,7 +46,10 @@
         </p>
 
         <section class="imagens-container">
-          <img src="./desafios_html/src/dan-droids.png" alt="dan-droids">
+          <picture>
+            <source media="(max-width: 600px)" srcset="./src/dan-droids-pq.png">
+            <img src="./src/dan-droids.png" alt="Bugdroid" style="width: 100%; height: auto;">
+          </picture>
         </section>
 
         <p>Essa primeira versão bizarra até foi batizada em homenagem ao seu criador: seriam os 
@@ -55,7 +58,7 @@
           </a>.
         </p>
       </article>
-    
+
       <article>
         <h2 class="faixa-esfumada"> Surge um novo mascote</h2>
         <p>A ideia de ter um mascote foi amadurecendo e a missão foi passada para uma profissional da área. A ilustradora russa 
@@ -63,19 +66,19 @@
         </p>
 
         <section class="imagens-container">
-          <img src="./desafios_html/src/irina-blok.jpg" alt="irina-blok">
+          <picture>
+            <source media="(max-width: 600px)" srcset="./src/irina-blok-pq.jpg">
+            <img src="./src/irina-blok.jpg" alt="Bugdroid" style="width: 100%; height: auto;">
+          </picture>
         </section>
-
         <p>A ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais chapada. O desenho também deveria gerar identificação rápida com quem o olha. Surgiu então o 
           <a href="https://www.tecmundo.com.br/android/46241-android-a-historia-da-logo-do-robozinho-mais-famoso-do-mundo-ilustracao-.htm" target="_blank">
             Bugdroid
           </a>, o novo mascote do Android.
         </p>
-        
         <section class="imagens-container">
-          <img src="./desafios_html/src/bugdroid.png" alt="bugdroid">
+          <img src="./src/bugdroid.png" alt="bugdroid">
         </section>
-
         <p>A principal inspiração para os traços do novo Bugdroid veio daqueles bonequinhos que ilustram portas de banheiro. Conta a lenda que a artista estava criando em sua mesa no Google, olhou para o lado e teve a ideia: simples, limpo, objetivo.</p>
 
         <section class="video-wrapper">
@@ -137,6 +140,6 @@
   <footer>
     <p>Site criado por <strong>Gustavo Guanabara</strong> para o <strong>CursoemVídeo</strong>.</p>
   </footer>
-  
+
 </body>
 </html>
