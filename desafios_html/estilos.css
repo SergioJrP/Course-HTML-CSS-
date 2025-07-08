@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Idroid";
-  src: url("./fontes/idroid.otf") format("opentype");
+  src: url("./src/fontes/idroid.otf") format("opentype");
 }
 
 body {
