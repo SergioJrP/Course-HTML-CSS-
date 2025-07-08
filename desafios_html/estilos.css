@@ -36,6 +36,11 @@ nav {
   background-color: #1a5c38;
   padding: 10px 0;
   text-align: left;
+
+  display: flex;
+  flex-wrap: wrap; /* 🔸 Permite quebra em telas pequenas */
+  justify-content: left;
+  gap: 10px;
 }
 
 nav > a {
@@ -44,6 +49,12 @@ nav > a {
   font-weight: bold;
   margin: 0 20px;
   transition: 0.2s;
+  
+  padding: 10px 15px; /* 🔹 aumenta a área de toque */
+  margin: 5px;
+  display: inline-block;
+  border-radius: 5px;
+
 }
 
 nav > a:hover {
