@@ -38,7 +38,7 @@ nav {
   text-align: left;
 
   display: flex;
-  flex-wrap: wrap; /* 🔸 Permite quebra em telas pequenas */
+  flex-wrap: wrap;
   justify-content: left;
   gap: 10px;
 }
